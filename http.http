@@ -1,0 +1,14 @@
+GET http://localhost:1337/cart-items
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjU3MDI2Mzk5LCJleHAiOjE2NTk2MTgzOTl9._4Ehvf7kKFk1xIjfk2ouJptBOI1yPJRY2HCKAgWKQU0
+
+###
+
+POST http://localhost:1337/cart-items
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjU3MDI2Mzk5LCJleHAiOjE2NTk2MTgzOTl9._4Ehvf7kKFk1xIjfk2ouJptBOI1yPJRY2HCKAgWKQU0
+Content-Type: application/json
+
+{
+    "product": 2,
+    "quantity": 2
+}
+
